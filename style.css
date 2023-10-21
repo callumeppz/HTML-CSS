@@ -1,0 +1,25 @@
+main{
+    color: white;
+    background: darkslateblue;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    background-color: darkslategrey;
+    border: 5px solid black;
+}
+
+h2{
+    color: black;
+    background-color: darkslategrey;
+    border: 5px solid black;
+}
