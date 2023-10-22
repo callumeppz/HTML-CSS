@@ -12,52 +12,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/> 
     <link rel="stylesheet" href="/style.css">
 </head>
+
+    <!-- header and tabs-->
+
+<header>
+    <div class="tabs">
+        <button class="tablinks">Home</button>
+        <button class="tablinks">Projects</button>
+        <button class="tablinks">About</button>
+        <button class="tablinks">Contact Me</button>
+
+        <!-- GITHUB LINK-->
+
+        <a class="github1" 
+        target="_blank" 
+        href="https://github.com/callumeppz">
+        <img src="/iconmonstr-github-5.svg" alt="Callum Apps githu b">
+        </a> 
+    </div>
+
+</header>
+<main>
+    <div>
 <body>
-    <main>
 
-    <!-- redirect list --> 
-
-    <Ul> 
-        <li>Home</li>
-        <li><a href="/Projects.html">Projects</a></li>
-        <li><a href="/Contact.html">Contact</a></li>
-    </Ul>
-
-    <! -- Information for website place holder rn -- > 
-
-    <h1 id="TITLE">Welcome to my website</h1> 
-    <p><strong> I am a computer science student at the university of reading 
-        please take a look at my recent projects on my github! 
+    <!-- Information for website place holder rn --> 
+   <div class="welcome">
+    <h1 id="TITLE">Welcome</h1> 
+    <hr>
+    <p ><strong>My name is Callum Apps and I'm a Computer Science Student based in Reading, UK. You can find more about me, my work and my interests in Github or LinkedIn.
     </strong></p>
+    </div>
 
-    <h2>Project 1</h2>
-    <P class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
-        veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
-        vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</P>
+    <div class="project-container">
+        <h2>Project 1</h2>
+        <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
+            veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
+            vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
     
-    <h2>Project 2</h2>
-    <P class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
-        veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
-        vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</P>
-
-    <h2>Project 3</h2>
-    <P class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
-        veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
-        vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</P>
-
-    <! -- GITHUB link & IMAGES -- > 
-
-    <img width="500" height="500" src="Images/Computer.jpg" alt="Image of computer code">
-    <a 
-    target="_blank" 
-    href="https://github.com/callumeppz">
-    <img src="/iconmonstr-github-5.svg" alt="Callum Apps githu b">
-    </a> 
-
+        <h2>Project 2</h2>
+        <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
+            veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
+            vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
+    
+        <h2>Project 3</h2>
+        <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
+            veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
+            vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
+    </div>
     <!-- Image gallery of projects edit in css -->
 
 <h2>My projects</h2>
-<header>
         <h3>gallery</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius veniam illo, 
             fugit maiores iste odit hic iure soluta obcaecati corporis.
@@ -68,13 +73,16 @@
                 <figcaption>Computer pic</figcaption>
             </figure>
     </nav>
-    </header>
+
+
+   <p style="background-image: url(/Images/Computer.jpg);"></p>
+</div>
 
 
     <!-- form below for contact reasons creating input boxes with labels and a multi choice box --> 
 
-    <h1>Forms</h1>
-    <form>
+    <form class="forms">
+        <h1>Forms</h1>
         <label for="1">Name</label>
         <input maxlength"16" name="user" type="text" id="1">
         <label for="2">Email</label>
@@ -85,7 +93,7 @@
             <option value="Contact me">Contact me</option>
         </select>
         <textarea placeholder="Max 200 Characters" maxlength="200" name="message" id="4" cols="30" rows="10"></textarea>
-        <button type="submit">Submit</button>
+        <button id="submit">Submit</button>
     </form>      
     <a href="/Projects.html" target="_blank">Projects</a>
 
@@ -93,10 +101,16 @@
 
     <!-- footer for socials -->
 
-    <footer>Created in 2023, Social links below:
-        <ul>
-            <li><a id="twitter-link" href="twitter.com">twitter &copy</a></li>
-        </ul>
+    <footer>Created in 2023, Social links:
+
+        <! -- GITHUB link & IMAGES -- > 
+
+        <a 
+        target="_blank" 
+        href="https://github.com/callumeppz">
+        <img src="/iconmonstr-github-5.svg" alt="Callum Apps githu b">
+        </a> 
+    
     </footer>
 </body>
 </html>
