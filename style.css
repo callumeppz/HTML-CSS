@@ -1,25 +1,156 @@
-main{
-    color: white;
-    background: darkslateblue;
-    width: 100%;
-    padding: 20px;
-    margin-top: 20px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #515568;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-*{
+.welcome {
+    background-image: url(/Images/laptop.png);
+    background-size: 90%;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px; /* Adjust padding for better spacing */
+    color: antiquewhite;
+    font-size: 16px;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 65%, 0% 75%, 0% 65%);
+}
+
+.welcome h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    color: antiquewhite;
+    width: 100%;
+    padding: 20px;
+    margin-top: 0;
+    padding-top: 100px;
+    position: relative;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1 {
+.h1 {
     color: black;
-    background-color: darkslategrey;
-    border: 5px solid black;
+    background-color: rgba(70, 70, 70, 0.8);
+    padding: 100PX;
 }
 
-h2{
-    color: black;
-    background-color: darkslategrey;
-    border: 5px solid black;
+h2 {
+    color:antiquewhite ;
+    padding: 100;
+}
+
+button {
+    color: antiquewhite;
+    border: #0062FF solid 1px;
+    background: #515568;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header {
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1; /* Add z-index to make sure the header appears above the main content */
+}
+
+.tablinks {
+    color: antiquewhite;
+    border: #0062FF solid 1px;
+    background: #1a1c26;
+    padding: 15px 16px;
+    cursor: pointer;
+    right: 80px;
+}
+
+a {
+    float:right;
+}
+
+.tablinks:hover {
+    transform: scale(1.2);
+    color: antiquewhite;
+    background: #515568;
+    opacity: 0.5;
+    padding: 15px 16px;
+}
+
+.tabs {
+    color: antiquewhite;
+    border: #0062FF solid 1px;
+    background: #1a1c26;
+    padding: 15px 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+button:hover {
+    transform: scale(1.2);
+    color: antiquewhite;
+    background: #515568;
+    opacity: 0.5;
+    padding: 9px 16px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    opacity: 0.7;
+}
+
+.forms {
+    border-radius: 5px;
+    background-color: rgba(70, 70, 70, 0.8);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.project-container {
+    background-image: url(/Images/Computer.jpg);
+    background-size: cover;
+    background-attachment: fixed; /* Static background image */
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: flex-start; /* Align text to the right */
+    padding-right: 0%; /* Adjust right padding as needed */
+    color: antiquewhite;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 80%, 0% 100%, 0% 80%); /* Adjust the shape as needed */
+    text-align: left; /* Align text to the left */
+    padding: 20px 30px; /* Adjust the padding (top, right, bottom, left) */
+}
+
+.article-text {
+    background-color: rgba(70, 70, 70, 0.8);
+    color: antiquewhite;
+    padding: 10px;
+    margin-top: 10px; /* Adjust the spacing from the section above */
+    transition: transform 0.3s; /* Add a smooth transform effect */
+}
+
+.article-text:hover {
+    transform: scale(1.05);
+    background-color: rgba(70, 70, 70, 1); /* Darken the background on hover */
 }
