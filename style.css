@@ -2,20 +2,23 @@
 * {
     margin: 0;
     padding: 0;
+    
     box-sizing: border-box;
     font-family: serif;
 }
 
 body{
-    max-width: 768px;
-    max-height: 1024px;
+    width:100%;
+    min-width:1000px;
+    height:auto;
     margin: auto;
     display: block;
     background-color: #1a1c26;
 }
 main {
-    max-width: 768px;
-    max-height: 1024px;
+    width:100%;
+    min-width:1000px;
+    height:auto;
     margin: auto;
     display: block;
     font-family: serif;
