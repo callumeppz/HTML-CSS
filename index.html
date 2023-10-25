@@ -1,126 +1,104 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
+
 <head>
-
-    <!-- WEBSITE TITLE, DESCRIPTION, UTF-8 FOR WEBSITE ENCODING REASONS, SEARCH EGINE OPTIMISATION, ICON FOR WEBSITE, AND ENSURING FITS ON DEVICES --> 
-
-    <title>Callum Apps Portfolio</title>  
-    <meta name="description" content="Computer Science Graudate"/>
-    <meta charset="utf-8"/>
-    <meta name="robots" content="index, follow"/>
-    <link rel="icon" href="/Images/websitepng.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Callum Apps Portfolio</title>
+    <meta name="description" content="Computer Science Graduate">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="/Images/websitepng.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
-    <!-- header and tabs-->
-
-<header>
-    <div class="tabs">
-        <button class="tablinks">Home</button>
-        <button class="tablinks">Projects</button>
-        <button class="tablinks">About</button>
-        <button class="tablinks">Contact Me</button>
-
-        <!-- GITHUB LINK-->
-
-        <a class="github1" 
-        target="_blank" 
-        href="https://github.com/callumeppz">
-        <img src="/iconmonstr-github-5.svg" alt="Callum Apps githu b">
-        </a> 
-    </div>
-
-    
-</header>
-
-    <div>
 <body>
+    <div class="container">
+        
+        <!-- Header and Tabs -->
+        
+        <header>
+            <div class="tabs">
+                <button class="tablinks">Home</button>
+                <button class="tablinks">Projects</button>
+                <button class="tablinks">About</button>
+                <button class="tablinks">Contact Me</button>
 
-    
+                <!-- GITHUB LINK -->
 
-    
-    <!-- Information for website place holder rn --> 
-    <main>
-<div class="welcome-text">
-    <div class="slider-thumb">
-    <div class="text-container">
-    <h1 id="TITLE">Welcome</h1> 
+                <a class="github1" target="_blank" href="https://github.com/callumeppz">
+                    <img src="/iconmonstr-github-5.svg" alt="Callum Apps GitHub">
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <div class="welcome-text">
+                <div class="slider-thumb">
+                    <div class="text-container">
+                        <h1 id="TITLE">Welcome</h1>
+                    </div>
+                    <div class="textarea">
+                        <hr>
+                        <p><strong>My name is Callum Apps and I'm a Computer Science Student based in Reading, UK. You can find more about me, my work and my interests on GitHub or LinkedIn.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Project Container -->
+        <div class="project-container">
+            <h2>Project 1</h2>
+            <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
+
+            <h2>Project 2</h2>
+            <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
+
+            <h2>Project 3</h2>
+            <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
+        </div>
+
+        <!-- Image Gallery -->
+        <div class="my-container">
+            <nav>
+                <figure>
+                    <img src="" alt="...">
+                    <figcaption>Computer pic</figcaption>
+                </figure>
+            </nav>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="forms">
+            <h1>Contact Me</h1>
+            <label for="1">Name</label>
+            <input maxlength="16" name="user" type="text" id="1">
+            <label for="2">Email</label>
+            <input name="email" type="email" id="2">
+            <label for="3">Option</label>
+            <select name="Query" id="3">
+                <option value=""></option>
+                <option value="Projects">Projects</option>
+                <option value="Contact me">Contact me</option>
+            </select>
+            <label for="4">Query</label>
+            <textarea placeholder="Max 200 Characters" maxlength="200" name="message" id="4" cols="30" rows="10"></textarea>
+            <button id="submit">Submit</button>
+        </form>
     </div>
-    <div class="textarea">
-    <hr>
-    <p ><strong>My name is Callum Apps and I'm a Computer Science Student based in Reading, UK. You can find more about me, my work and my interests in Github or LinkedIn.
-    </strong></p>
-    </div>
-    </div>
-</div>
-</main>
-    
-    <div class="project-container">
-        <h2>Project 1</h2>
-        <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
-            veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
-            vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
-    
-        <h2>Project 2</h2>
-        <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
-            veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
-            vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
-    
-        <h2>Project 3</h2>
-        <p class="article-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, 
-            veritatis accusantium quia aperiam minus ut, suscipit molestias excepturi 
-            vitae autem non ea nulla aspernatur sed expedita commodi quibusdam ipsam aliquam!</p>
-    </div>
 
-    <!-- Image gallery of projects edit in css -->
-
-    <div class="my-container">
-        <nav>
-            <figure>
-                <img src="" alt="...">
-                <figcaption>Computer pic</figcaption>
-            </figure>
-        </nav>
-    </div>
-    
-    <!-- form below for contact reasons creating input boxes with labels and a multi choice box --> 
-
-    <form class="forms">
-        <h1>Contact Me</h1>
-        <label for="1">Name</label>
-        <input maxlength"16" name="user" type="text" id="1">
-        <label for="2">Email</label>
-        <input name="email" type="email" id="2">
-        <label for="3">Option</label>
-        <select name="Query" id="3">
-            <option value=""></option>
-            <option value="Projects">Projects</option>
-            <option value="Contact me">Contact me</option>
-        </select>
-        <label for="4">Query</label>
-        <textarea placeholder="Max 200 Characters" maxlength="200" name="message" id="4" cols="30" rows="10"></textarea>
-        <button id="submit">Submit</button>
-    </form>      
-
-
-    </main> 
-
-    <!-- footer for socials -->
-
-    
-
-        <!-- GITHUB link & IMAGES --> 
-
-        <div class="links">
+    <!-- Footer for Social Links -->
+    <div class="links">
         <footer>Created in 2023, Social links:
-        <a target="_blank" href="https://github.com/callumeppz">
             <a target="_blank" href="https://github.com/callumeppz">GitHub</a>
             <img src="/iconmonstr-github-5.svg" alt="Callum Apps GitHub">
-        </a>
-        </div>
-        
-    
-    </footer>
+        </footer>
+    </div>
+
+    <!-- Include Bootstrap JavaScript (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
