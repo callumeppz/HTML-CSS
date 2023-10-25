@@ -235,6 +235,7 @@ button:hover {
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
+    background-color:rgb(127, 112, 168);
     border: 1px solid rgb(120, 97, 182);
     border-radius: 4px;
     box-sizing: border-box;
@@ -244,4 +245,25 @@ input[type=text], select, textarea {
     opacity: 0.7;
 }
 
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(127, 112, 168);
+    border: 1px solid rgb(120, 97, 182);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    opacity: 0.7;
+}
 
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically and horizontally */
+    padding: 10px;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    background: linear-gradient(270deg, #382064, #060607);
+}
